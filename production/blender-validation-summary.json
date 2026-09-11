@@ -1,0 +1,28 @@
+{
+  "frame_count": 432,
+  "fps": 24,
+  "duration": 18,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "minimum_product_border_fraction": 0.08627545833587646,
+  "errors": [],
+  "cut_start_frames": [
+    109,
+    217,
+    325
+  ],
+  "final_hold_frames": [
+    421,
+    432
+  ],
+  "bottle": "ATELIER VESPER - AMBRE NOCTURNE",
+  "reference": "../perfume_bottle.png",
+  "ocean": false,
+  "fixed_product": true,
+  "camera_direction": "counterclockwise viewed from +Z",
+  "assumptions": "Bottle height 1.31 scene metres including cap; stylized product scale. Depth .34 inferred from a single front view.",
+  "validation_limits": "All 432 camera positions are at least 0.10 scene metres outside every mesh world AABB. Product bounds, fixed transforms and sightline checks passed. Exact screen-space velocity matching is not numerically certified.",
+  "minimum_camera_to_object_aabb_clearance": 0.6549999713897705
+}

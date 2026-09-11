@@ -1,0 +1,19 @@
+{
+  "assessment": "Completed Blender-to-Seedance 2.5 workflow. Sampled visual review found the approved amber-glass bottle, gold cap and ivory label in a dry dune setting, with four camera shots and a readable final hero label. A second edit removed an unwanted distant ocean strip. The generated film approximates the guide: it does not certify exact 3D geometry, camera azimuth, object count or pixel-perfect identity across every frame. Fine text is softer in distant shots. The editable Blender file contains the greybox guide, not the photoreal generated world.",
+  "format": "1920 x 1080, 24 fps, H.264 MP4, silent",
+  "duration_seconds": 18,
+  "decoded_frames": 432,
+  "verified_cut_seconds": [
+    4.5,
+    9.0,
+    13.5
+  ],
+  "final_hold_seconds": 0.5,
+  "hold_mean_absolute_pixel_difference_max": 0.06335824974279836,
+  "timing_finish": "Native result: 425 frames / 17.708333 seconds. Each shot resampled to 108 frames; final 12 frames hold the final source frame. Nearest-frame sampling, without optical-flow synthesis.",
+  "production_route": "Local Blender Python -> rendered guide MP4 -> Higgsfield CLI -> Seedance 2.5 Edit -> local FFmpeg finishing. The Blender live bridge was unnecessary for this batch-rendered scene; generation MCP was not needed for production.",
+  "credits_spent": 366.37,
+  "credits_breakdown": "Pilot 45; full generation 162; horizon correction 159.37. Confirmed against Higgsfield transactions.",
+  "visual_review": "18 sampled frames plus full-resolution final hero; technical checks decode all 432 frames. Browser rendering of the HTML report was not verified.",
+  "sha256": "cbc9f519d937f4ec2ad69746d4dd56dc648038ca2d3c7d055fec43eb11ee09f7"
+}
