@@ -2,6 +2,8 @@
 
 An educational perfume-film project showing how explicit Blender camera animation guides an AI-generated video. The repository includes a browsable tool guide, the production account, selected media and a reproducible greybox scene.
 
+Inspired by [this YouTube tutorial on the Blender + Higgsfield workflow (starting at 5:38)](https://www.youtube.com/watch?v=OFvi-pvHmbo&t=338s). This project independently explores and documents that workflow through a perfume-film example.
+
 **[Open the live GitHub Pages site](https://az9713.github.io/gpt-6-blender-higgsfield/)** · **[Watch the camera demonstration](https://az9713.github.io/gpt-6-blender-higgsfield/#demo)**
 
 [![Blender guide and generated perfume film](production/guide-final-first-frame.jpg)](https://az9713.github.io/gpt-6-blender-higgsfield/#demo)
