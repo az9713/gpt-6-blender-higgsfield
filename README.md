@@ -4,6 +4,18 @@ An educational perfume-film project showing how explicit Blender camera animatio
 
 Inspired by [this YouTube tutorial on the Blender + Higgsfield workflow (starting at 5:38)](https://www.youtube.com/watch?v=OFvi-pvHmbo&t=338s). This project independently explores and documents that workflow through a perfume-film example.
 
+## The workflow in two minutes
+
+The starting point was a brief for a luxury perfume advertisement with four camera shots. A separate image-generation step produced the approved ATELIER VESPER bottle reference. **GPT-6 Astra coordinated the work:** it reconciled the instructions, wrote Blender Python and prepared the visual-generation prompt.
+
+**Blender built and filmed a simple rehearsal set.** The Python created a stationary bottle proxy, support, posts, rocks and dunes, plus four animated cameras. Blender rendered 432 frames; FFmpeg encoded them into an 18-second guide MP4.
+
+**The Higgsfield CLI sent the guide video, bottle PNG and appearance prompt to Seedance 2.5 Edit.** Seedance used the visible staging and movement to generate detailed glass, gold, sand and wood. It received pixels—not the `.blend` file, meshes or camera coordinates. This does not establish native Blender-file support or anything about its training dataset.
+
+**The assistant reviewed; local tools finished.** A pilot tested the handoff, the full job generated the film, and one correction removed an unwanted ocean strip. Python and FFmpeg restored exact cut timing and an ending hold, producing the final 18-second, 1080p, 24 fps video.
+
+Remember: **Astra plans → Python instructs → Blender stages and films → CLI transports → Seedance generates appearance → local tools finish and verify.** Generation MCP supported read-only preflight; the Blender plugin/live bridge was not used in production. The `.blend` remains the editable guide, not the finished photoreal world.
+
 **[Open the live GitHub Pages site](https://az9713.github.io/gpt-6-blender-higgsfield/)** · **[Watch the camera demonstration](https://az9713.github.io/gpt-6-blender-higgsfield/#demo)**
 
 [![Blender guide and generated perfume film](production/guide-final-first-frame.jpg)](https://az9713.github.io/gpt-6-blender-higgsfield/#demo)
